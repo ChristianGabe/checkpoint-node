@@ -1,0 +1,21 @@
+Ce projet contient des scripts et des programmes développés avec Node.js.
+ Il implémente plusieurs fonctionnalités liées à la manipulation de fichiers, la création d'un serveur, la génération de mots de passe aléatoires, et l'envoi d'e-mails.
+
+ Installation
+Clonez ce dépôt de code sur votre machine locale.
+Assurez-vous que Node.js est installé sur votre système.
+Dans le répertoire du projet, exécutez la commande suivante pour installer les dépendances nécessaires :
+npm install
+
+Tâches disponibles
+
+Le projet contient les tâches suivantes :
+
+hello-world.js : un script qui imprime "HELLO WORLD" sur la console.
+serveur.js : un programme qui crée un serveur écoutant sur le port 3000 et renvoie "<h1>Hello Node!!!!</h1>\n" lorsqu'on accède à http://localhost:3000.
+lecture-fichier.js : un script qui crée un fichier "welcome.txt" avec le contenu "Hello Node" et lit les données du fichier "hello.txt" en utilisant console.log().
+password-generator.js : un programme qui utilise le module npm "generate-password" pour générer des mots de passe aléatoires et les affiche avec console.log().
+email-sender.js : un script qui utilise le module npm "nodemailer" pour envoyer un e-mail en utilisant une configuration spécifiée.
+
+Pour exécuter une tâche spécifique, vous pouvez utiliser la commande suivante :
+node nom-du-fichier.js
